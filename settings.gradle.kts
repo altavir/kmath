@@ -17,6 +17,7 @@ pluginManagement {
         kotlin("plugin.allopen") version kotlinVersion
         id("org.jetbrains.kotlinx.benchmark") version "0.3.1"
         kotlin("jupyter.api") version "0.10.0-25"
+
     }
 }
 
@@ -44,5 +45,6 @@ include(
     ":kmath-symja",
     ":kmath-jafama",
     ":examples",
+    ":kmath-ojalgo",
     ":benchmarks",
 )
